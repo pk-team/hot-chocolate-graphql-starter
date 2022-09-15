@@ -8,7 +8,11 @@ You will need the dotnet runtime and dotnet tools.
 
 ### 1. Development Appsettings 
 
-Add `App.Server/appsettings.Development.json`, with the following content.
+```
+touch App.Server/appsettings.Development.json
+```
+
+Then copy paste the following into `App.Server/appsettings.Development.json`
 
 ```json
 {
